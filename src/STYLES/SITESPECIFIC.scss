@@ -1,0 +1,98 @@
+$imagePlaceholder: #91908f;
+$buttonBorder: #1818d1;
+$buttonShadow: #4747db;
+$buttonText: #1818d1;
+$cardBorder: #7c1bde;
+$cardShadow:#8f1fff;
+$dropdownNavbar: #18d1d1;
+
+.root {
+    font-family: Barlow, sans-serif;
+}
+
+.site-font {
+    font-family: Barlow, sans-serif!important;
+}
+
+.caption {
+    color: $buttonBorder;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.button-padding {
+    padding: 9px 35px 9px 35px;
+}
+
+a {
+    a:link {
+        color: black;
+    }
+    a:visited {
+        color: black;
+    }
+    a:active {
+        color: black;
+    }
+
+}
+
+input[type="button"]:focus {
+    border: 1px solid $buttonBorder;
+}
+
+
+
+.button-border-color {
+    border: 1px solid $buttonBorder;
+
+}
+
+.button-join-us-shadow {
+    box-shadow: 3px 3px $buttonShadow;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.button-join-us-shadow-transition:hover {
+    box-shadow: 2px 2px $buttonShadow;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-border-color {
+    border: 1px solid $cardBorder;
+}
+
+.outer-card {
+    background-color: white;
+}
+
+.inner-pic {
+    margin: 10px 10px 10px 10px;
+}
+
+.large-card-shadow {
+    box-shadow: 5px 5px 0px $cardShadow;
+}
+
+.text-border-color {
+    color: $buttonBorder;
+}
+
+.section-header {
+    margin-top: 15px;
+}
+
+.background-colored-block {
+    background-color: $cardShadow;
+}
+
+.faq {
+    bottom: 150px;
+}
+
+.faq-header {
+    bottom: 30px;
+}

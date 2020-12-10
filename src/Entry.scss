@@ -1,0 +1,102 @@
+@import './STYLES/background-color.scss';
+@import './STYLES/border.scss';
+@import './STYLES/breakpoints.scss';
+@import './STYLES/center.scss';
+@import './STYLES/container.scss';
+@import './STYLES/cursor.scss';
+@import './STYLES/display.scss';
+@import './STYLES/flexbox.scss';
+@import './STYLES/height.scss';
+@import './STYLES/margin.scss';
+@import './STYLES/nav.scss';
+@import './STYLES/padding.scss';
+@import './STYLES/position.scss';
+@import './STYLES/SITESPECIFIC.scss';
+@import './STYLES/text.scss';
+@import './STYLES/universal.scss';
+@import './STYLES/variables.scss';
+@import './STYLES/width.scss';
+@import './STYLES/z-index.scss';
+
+@media screen and (max-width: 500px) {
+    .navbar-links {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-links {
+        display: none;
+    }
+
+    .join-us {
+        padding: 0px 35px 0px 35px;
+    }
+
+    .nav-width {
+        width: 590px;
+        
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .navbar-links {
+        display: none;
+    }
+
+    .nav-width {
+        width: 690px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .nav-width {
+        width: 790px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .nav-width {
+        width: 890px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-width {
+        width: 990px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .nav-width {
+        width: 1090px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-width {
+        width: 1190px;
+    }
+}
+
+@media screen and (max-width: 3000px) {
+    .nav-width {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
