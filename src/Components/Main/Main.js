@@ -5,7 +5,7 @@ import BackgroundImage from "./Main Background Components/BackgroundImage";
 
 function Main() {
   return (
-    <div className="main w500 h500">
+    <div className="main w100per">
       <BackgroundImage />
       <div className="icon-land padding-top-65 ">
         <Caption text="what we do" class="text-center" />
