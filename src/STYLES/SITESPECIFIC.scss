@@ -6,13 +6,43 @@ $cardBorder: #7c1bde;
 $cardShadow:#8f1fff;
 $dropdownNavbar: #18d1d1;
 
+//NAVBAR
+
+.nav-open {
+    height: 360px;
+    transition: 0.3s ease-in-out
+
+}
+
+.nav-closed {
+    height: 0px;
+    transition: height 0.3s ease-in-out;
+}
+
+.nav-background {
+    background-color: $dropdownNavbar;
+    margin-top: 15px;
+}
+
+.nav-dropdown {
+    overflow: hidden;
+}
+
+//UNIVERSAL
+
 .root {
     font-family: Barlow, sans-serif;
+}
+
+.body {
+    width: 500px;
 }
 
 .site-font {
     font-family: Barlow, sans-serif!important;
 }
+
+//UNIVERSAL TEXT
 
 .caption {
     color: $buttonBorder;
@@ -27,28 +57,41 @@ $dropdownNavbar: #18d1d1;
     padding: 9px 35px 9px 35px;
 }
 
-a {
-    a:link {
-        color: black;
-    }
-    a:visited {
-        color: black;
-    }
-    a:active {
-        color: black;
-    }
+//ANCHOR TAGS
 
+a {
+    color: black;
+
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:active {
+    color: black;
 }
 
 input[type="button"]:focus {
+    outline: none;
     border: 1px solid $buttonBorder;
 }
 
-
+//UNIVERSAL BUTTON
 
 .button-border-color {
-    border: 1px solid $buttonBorder;
+    border: 2px solid $buttonBorder;
 
+}
+
+.overlay-button {
+    border: 2px solid #ad1a3a;
+    color: #ad1a3a
+}
+
+.overlay-text {
+    color:#e0c7ca
 }
 
 .button-join-us-shadow {
@@ -89,6 +132,9 @@ input[type="button"]:focus {
     background-color: $cardShadow;
 }
 
+
+//MAIN FAQ
+
 .faq {
     bottom: 150px;
 }
@@ -96,3 +142,21 @@ input[type="button"]:focus {
 .faq-header {
     bottom: 30px;
 }
+
+//MAIN BACKGROUND IMAGE
+.background-image-bottom {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.background-image-overlay {
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+// .background-image-text {
+//     left: 40px;
+// }

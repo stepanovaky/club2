@@ -12,6 +12,7 @@
 @import './STYLES/padding.scss';
 @import './STYLES/position.scss';
 @import './STYLES/SITESPECIFIC.scss';
+@import './STYLES/SITESPECIFICTRANSITIONS.scss';
 @import './STYLES/text.scss';
 @import './STYLES/universal.scss';
 @import './STYLES/variables.scss';
@@ -22,6 +23,11 @@
     .navbar-links {
         display: none;
     }
+
+    .nav {
+        width: 490px;
+         
+     }
 
 }
 
@@ -34,56 +40,67 @@
         padding: 0px 35px 0px 35px;
     }
 
-    .nav-width {
-        width: 590px;
+    .nav {
+       width: 590px;
         
+    }
+
+    .background-image {
+
+    }
+    .background-image-bottom {
+
+    }
+    .background-image-overlay {
+
     }
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width:601px) and (max-width: 700px) {
     .navbar-links {
         display: none;
     }
 
-    .nav-width {
+    .nav {
         width: 690px;
     }
 
 }
 
-@media screen and (max-width: 800px) {
-    .nav-width {
+@media screen and (min-width:701px) and (max-width: 800px) {
+    .nav {
         width: 790px;
     }
 }
 
-@media screen and (max-width: 900px) {
-    .nav-width {
+@media screen and (min-width:801px) and (max-width: 900px) {
+    .nav {
         width: 890px;
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .nav-width {
+@media screen and (min-width:901px) and (max-width: 1000px) {
+    .nav {
         width: 990px;
     }
 }
 
-@media screen and (max-width: 1100px) {
-    .nav-width {
+@media screen and (min-width:1001px) and (max-width: 1100px) {
+    .nav {
         width: 1090px;
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .nav-width {
+@media screen and (min-width:1101px) and (max-width: 1200px) {
+    .nav {
         width: 1190px;
     }
 }
 
-@media screen and (max-width: 3000px) {
-    .nav-width {
+@media screen and (min-width:1201px) and (max-width: 3000px) {
+    .nav {
+        
         width: 1200px;
         margin-left: auto;
         margin-right: auto;

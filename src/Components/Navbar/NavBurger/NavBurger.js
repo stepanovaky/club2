@@ -1,10 +1,13 @@
 import React from "react";
 import { Icon } from "semantic-ui-react";
 
-function NavBurger() {
+function NavBurger(props) {
   return (
-    <div className="nav-burger mar-side-25 mar-top-10">
-      <Icon name="content big" />
+    <div
+      onClick={props.click}
+      className="nav-burger cursor-pointer mar-side-25 mar-top-10"
+    >
+      <Icon name="content" size="big" />
     </div>
   );
 }
