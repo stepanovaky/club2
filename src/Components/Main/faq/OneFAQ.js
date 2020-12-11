@@ -3,6 +3,10 @@ import React, { useState } from "react";
 function OneFAQ(props) {
   const [faqOpen, setFAQOpen] = useState(false);
 
+  const toggleFAQ = () => {
+    setFAQOpen(!faqOpen);
+  };
+
   return (
     <div className="faq-item">
       <div className="faq-question">
