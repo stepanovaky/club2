@@ -19,6 +19,29 @@
 @import './STYLES/width.scss';
 @import './STYLES/z-index.scss';
 
+
+
+@media screen and(max-width: 400px) {
+    .navbar-links {
+        display: none;
+    }
+
+    .nav {
+        width: 390px;
+         
+     }
+     .join-us {
+        padding: 0px 35px 0px 35px;
+    }
+
+    .background-image, .background-image-bottom, .background-image-overlay,
+    .icon-land {
+        width: 400px;
+
+    }
+
+}
+
 @media screen and (max-width: 500px) {
     .navbar-links {
         display: none;
@@ -28,6 +51,24 @@
         width: 490px;
          
      }
+     .join-us {
+        padding: 0px 35px 0px 35px;
+    }
+
+    .nav {
+       width: 590px;
+        
+    }
+
+    .background-image {
+
+    }
+    .background-image-bottom {
+
+    }
+    .background-image-overlay {
+
+    }
 
 }
 

@@ -8,7 +8,7 @@ function BackgroundImageText() {
     history.push("/join");
   };
   return (
-    <div className="background-image-text w500 h500 mar-top-25 flex-horizontal-space-around relative flex-vertical-center flex-horizontal-center flex-column absolute overlay-text z900">
+    <div className="background-image-text mar-top-25 flex-horizontal-space-around relative flex-vertical-center flex-horizontal-center flex-column absolute overlay-text z900">
       <h1 className="f36 text-center l48 site-font">
         Exercitation nisi Lorem ad ullamco.
       </h1>
