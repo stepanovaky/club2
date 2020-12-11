@@ -11,7 +11,7 @@ function OneFAQ(props) {
     <div className="faq-item">
       <div className="faq-question">
         <p className="site-font f18 l26 weight600">{props.q.question}</p>
-        <div className="faq-open mar-left-16">
+        <div className="faq-open mar-left-16" onClick={toggleFAQ}>
           <div
             className={`faq-open-vertical ${
               faqOpen ? "faq-open" : "faq-closed"
