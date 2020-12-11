@@ -1,22 +1,24 @@
-$imagePlaceholder: #91908f;
+$imagePlaceholder: rgb(145, 144, 143, 0.2);
 $buttonBorder: #1818d1;
 $buttonShadow: #4747db;
 $buttonText: #1818d1;
-$cardBorder: #7c1bde;
-$cardShadow:#8f1fff;
+$cardBorder: rgb(239, 134, 213, 0.2);
+$cardShadow:rgb(239, 134, 213, 0.2);
 $dropdownNavbar: #18d1d1;
 
 //NAVBAR
 
 .nav-open {
-    height: 360px;
-    transition: 0.3s ease-in-out
+    height: 380px;
+    transition: all 0.3s ease-in-out
 
 }
 
 .nav-closed {
+    padding:0;
+    margin:0;
     height: 0px;
-    transition: height 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-background {
@@ -53,9 +55,7 @@ $dropdownNavbar: #18d1d1;
     text-transform: uppercase;
 }
 
-.button-padding {
-    padding: 9px 35px 9px 35px;
-}
+
 
 //ANCHOR TAGS
 
@@ -78,10 +78,16 @@ input[type="button"]:focus {
     border: 1px solid $buttonBorder;
 }
 
+//UNIVERSAL
+
+.title-bundle {
+    margin: 0px 15px 40px 15px;
+}
+
 //UNIVERSAL BUTTON
 
 .button-border-color {
-    border: 2px solid $buttonBorder;
+    border: 2px solid rgb(24, 24, 209, 1);
 
 }
 
@@ -95,12 +101,12 @@ input[type="button"]:focus {
 }
 
 .button-join-us-shadow {
-    box-shadow: 3px 3px $buttonShadow;
+    box-shadow: 6px 6px rgb(71, 71, 219, 0.5);
     transition: box-shadow 0.3s ease-in-out;
 }
 
 .button-join-us-shadow-transition:hover {
-    box-shadow: 2px 2px $buttonShadow;
+    box-shadow: 4px 4px rgb(71, 71, 219, 0.5);
     transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -135,12 +141,10 @@ input[type="button"]:focus {
 
 //MAIN FAQ
 
-.faq {
-    bottom: 150px;
-}
-
-.faq-header {
-    bottom: 30px;
+.faq-item {
+    padding: 8px 18px 8px 20px;
+    border: 1.5px solid $cardBorder;
+    border-radius: 4px;
 }
 
 //MAIN BACKGROUND IMAGE
@@ -160,3 +164,120 @@ input[type="button"]:focus {
 // .background-image-text {
 //     left: 40px;
 // }
+
+
+//ICON CIRCLE
+.circle {
+    width: 50px;
+    height: 50px;
+    opacity: 0.25;
+    background-color: #4747db;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+    z-index: -1;
+
+}
+
+.feature-top {
+    margin-bottom: -25px;
+}
+
+//OUR CLUB CONTAINER IN MAIN
+
+.club-outer {
+    // padding: 10px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: $cardBorder;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 264px;
+    height: 303px;
+    box-shadow: 6px 6px $cardShadow;
+}
+
+.club-inner {
+    background-color: $imagePlaceholder;
+    width: 241px;
+    height: 280px;
+    margin: 10px;
+
+}
+
+.offset-background {
+    background-color: $cardShadow;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+//MAIN CAROUSEL
+
+.carousel__back-button, .carousel__next-button {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    bottom: 110px;
+    left: 70px;
+}
+
+.carousel__back-button:focus {
+    outline:none;
+    
+
+}
+
+.carousel__next-button:focus {
+    outline:none;
+}
+
+.carousel__next-button {
+    left: 110px;
+
+}
+
+//MEMBER CARDS
+
+.member-outer {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: $cardBorder;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 264px;
+    height: 313px;
+    box-shadow: 6px 6px $cardShadow;
+}
+
+.member-inner {
+    width: 241px;
+    height: 290px;
+    background-color: $imagePlaceholder;
+}
+
+.join-team-outer {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: $cardBorder;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 247px;
+    height: 308px;
+    box-shadow: 6px 6px $cardShadow;
+}
+
+.join-team-inner {
+    width: 224px;
+    height: 285px;
+    
+}
+

@@ -6,13 +6,14 @@ function NavDropdown(props) {
 
   return (
     <div
-      className={`nav-dropdown w100per absolute z1000 padding-side-10 nav-background ${
+      className={`nav-dropdown padding-top-10 padding-bottom-20 w100per absolute z1000 padding-side-10 nav-background ${
         change ? "nav-open" : "nav-closed"
       }`}
     >
       <NavbarLinks
         change={change}
-        class="flex-column h350 flex-horizontal-space-evenly mar-side-15"
+        class="flex-column h350 flex-horizontal-space-evenly"
+        perLink="padding-side-25 padding-top-bottom-20"
       />
     </div>
   );

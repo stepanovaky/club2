@@ -13,7 +13,7 @@ function JoinUsButton() {
       <Button
         click={goJoin}
         value="Join Us"
-        class="background-trans text-border-color button-join-us-shadow button-join-us-shadow-transition site-font button-border-color"
+        class="padding-side-35 weight700  padding-top-bottom-9 background-trans text-border-color button-join-us-shadow button-join-us-shadow-transition site-font button-border-color"
       />
     </div>
   );

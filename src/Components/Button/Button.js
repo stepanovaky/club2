@@ -7,7 +7,7 @@ function Button(props) {
         type="button"
         onClick={props.click}
         value={props.value}
-        className={`cursor-pointer button-padding button-solid-clicked-border border-radius-3 f15 l21 weight700 site-font ${props.class}`}
+        className={`cursor-pointer button-padding button-solid-clicked-border border-radius-4 f15 l21 site-font ${props.class}`}
       />
     </div>
   );
